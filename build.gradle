@@ -1,0 +1,9 @@
+allprojects {
+
+    repositories {
+        mavenCentral()
+    }
+
+    group = 'com.blue-banana-bidder'
+    version = '0.0.1'
+}
