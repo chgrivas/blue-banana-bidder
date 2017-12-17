@@ -29,6 +29,7 @@ been added together with wiremock that has simulated the 3rd party campaign API 
 The basic implementation choices were:
 - spring boot because it is easy to setup without boilerplate code
 - Groovy & spock framework for quick and clear tests
+- Separation of concerns by using separate beans per functionality that make the bidder extensible and easily maintainable.
 
 # TODO
 
